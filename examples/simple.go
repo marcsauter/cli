@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/tmfkams/cli"
+	"github.com/marcsauter/cli"
 	"os"
 )
 

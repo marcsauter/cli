@@ -7,7 +7,7 @@ import (
 
 const (
 	Prompt   = ">>> "
-	Histsize = 5
+	Histsize = 255
 )
 
 var (

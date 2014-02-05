@@ -175,8 +175,8 @@ func NewCLI(commands map[string]func(*CLI, []string) error, prompt string, histS
 	c.commands = commands
 	c.prompt = prompt
 	c.histSize = histSize
-	if c.histSize > ^uint8(0) {
-		c.histSize = 255
+	if c.histSize < 1 {
+		c.histSize = 1
 	}
 	c.hist = make([]string, 0, c.histSize)
 	return c

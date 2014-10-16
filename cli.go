@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-// A CLI represents the command line interpreter
+// CLI represents the command line interpreter
 type CLI struct {
 	prompt      string
 	consoleMode uint32

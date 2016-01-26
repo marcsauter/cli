@@ -1,8 +1,9 @@
 package main
 
 import (
-	"github.com/marcsauter/cli"
 	"os"
+
+	"github.com/marcsauter/cli"
 )
 
 const (
